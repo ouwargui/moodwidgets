@@ -5,26 +5,19 @@
 //  Created by Guilherme Santos on 15/09/22.
 //
 
-import WidgetKit
 import SwiftUI
+import WidgetKit
 
 @main
 struct Widgets: Widget {
-    let kind: String = "widgets"
+  let kind: String = "widgets"
 
-    var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            WidgetView(entry: entry)
-        }
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+  var body: some WidgetConfiguration {
+    StaticConfiguration(kind: kind, provider: Provider()) { entry in
+      WidgetView(entry: entry)
     }
-}
-
-struct Widgets_Previews: PreviewProvider {
-    static var previews: some View {
-        WidgetView(entry: SimpleEntry(date: Date()))
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
-    }
+    .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+    .configurationDisplayName("Moody Widgets")
+    .description("Know your friends' mood in real time with this widget!")
+  }
 }

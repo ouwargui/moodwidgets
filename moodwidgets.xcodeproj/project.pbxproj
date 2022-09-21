@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A102FFDD28D49DD10037E170 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102FFDC28D49DD10037E170 /* ImageService.swift */; };
+		A102FFDE28D4B7830037E170 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102FFDC28D49DD10037E170 /* ImageService.swift */; };
 		A182F86328D3BE29003230DF /* MoodWidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182F86228D3BE29003230DF /* MoodWidgetsApp.swift */; };
 		A182F86528D3BE29003230DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182F86428D3BE29003230DF /* ContentView.swift */; };
 		A182F86728D3BE2B003230DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A182F86628D3BE2B003230DF /* Assets.xcassets */; };
@@ -66,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A102FFDC28D49DD10037E170 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		A182F85F28D3BE29003230DF /* moodwidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodwidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A182F86228D3BE29003230DF /* MoodWidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodWidgetsApp.swift; sourceTree = "<group>"; };
 		A182F86428D3BE29003230DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,7 +88,7 @@
 		A182F8A428D3F3AA003230DF /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		A182F8A628D3F418003230DF /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
 		A182F8A828D3F4AC003230DF /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
-		A182F8AA28D4139B003230DF /* SmallSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSizeView.swift; sourceTree = "<group>"; };
+		A182F8AA28D4139B003230DF /* SmallSizeView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = SmallSizeView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		A182F8AC28D413A8003230DF /* LargeSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeSizeView.swift; sourceTree = "<group>"; };
 		A182F8AE28D413B3003230DF /* MediumSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumSizeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A102FFDB28D49DB50037E170 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A102FFDC28D49DD10037E170 /* ImageService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A182F85628D3BE29003230DF = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				A182F86228D3BE29003230DF /* MoodWidgetsApp.swift */,
+				A102FFDB28D49DB50037E170 /* Data */,
 				A182F88C28D3C1A3003230DF /* Views */,
 				A182F86628D3BE2B003230DF /* Assets.xcassets */,
 				A182F86828D3BE2B003230DF /* Preview Content */,
@@ -387,6 +399,7 @@
 			files = (
 				A182F86528D3BE29003230DF /* ContentView.swift in Sources */,
 				A182F86328D3BE29003230DF /* MoodWidgetsApp.swift in Sources */,
+				A102FFDD28D49DD10037E170 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A182F8AB28D4139B003230DF /* SmallSizeView.swift in Sources */,
+				A102FFDE28D4B7830037E170 /* ImageService.swift in Sources */,
 				A182F8A728D3F418003230DF /* SimpleEntry.swift in Sources */,
 				A182F8A528D3F3AA003230DF /* Provider.swift in Sources */,
 				A182F8AD28D413A8003230DF /* LargeSizeView.swift in Sources */,
